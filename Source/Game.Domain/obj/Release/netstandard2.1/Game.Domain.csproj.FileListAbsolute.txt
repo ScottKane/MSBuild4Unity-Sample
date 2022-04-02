@@ -1,0 +1,10 @@
+C:\Unity\Game\Source\Game.Domain\bin\Release\netstandard2.1\Game.Domain.deps.json
+C:\Unity\Game\Source\Game.Domain\bin\Release\netstandard2.1\Game.Domain.dll
+C:\Unity\Game\Source\Game.Domain\bin\Release\netstandard2.1\Game.Domain.pdb
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.csproj.AssemblyReference.cache
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.AssemblyInfoInputs.cache
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.AssemblyInfo.cs
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.csproj.CoreCompileInputs.cache
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.dll
+C:\Unity\Game\Source\Game.Domain\obj\Release\netstandard2.1\Game.Domain.pdb

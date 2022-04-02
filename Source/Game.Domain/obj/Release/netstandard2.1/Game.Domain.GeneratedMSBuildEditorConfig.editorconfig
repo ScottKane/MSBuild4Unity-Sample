@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Game.Domain
+build_property.ProjectDir = C:\Unity\Game\Source\Game.Domain\

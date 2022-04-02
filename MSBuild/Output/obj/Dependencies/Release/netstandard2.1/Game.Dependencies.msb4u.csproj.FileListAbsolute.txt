@@ -1,0 +1,6 @@
+C:\Unity\Game\Assets\Dependencies\netstandard2.1\Game.Dependencies.msb4u.deps.json
+C:\Unity\Game\MSBuild\Output\obj\Dependencies\Release\netstandard2.1\Game.Dependencies.msb4u.csproj.AssemblyReference.cache
+C:\Unity\Game\Assets\Dependencies\netstandard2.1\Game.Domain.dll.meta
+C:\Unity\Game\Assets\Dependencies\netstandard2.1\Game.Domain.dll
+C:\Unity\Game\Assets\Dependencies\netstandard2.1\Game.Domain.pdb
+C:\Unity\Game\MSBuild\Output\obj\Dependencies\Release\netstandard2.1\Game.Dependencies.msb4u.csproj.CopyComplete

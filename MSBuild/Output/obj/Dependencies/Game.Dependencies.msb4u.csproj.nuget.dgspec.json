@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj": {}
+  },
+  "projects": {
+    "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj",
+        "projectName": "Game.Dependencies.msb4u",
+        "projectPath": "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj",
+        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Unity\\Game\\MSBuild\\Output\\obj\\Dependencies\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Unity\\Game\\Assets\\NuGet.Config",
+          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/UnityDeveloperTools/MSBuildForUnity/_packaging/UnityDeveloperTools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj": {
+                "projectPath": "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj",
+                "privateAssets": "analyzers"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MSBuildForUnity": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[0.9.2-*, 0.9.2]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj",
+        "projectName": "Game.Domain",
+        "projectPath": "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj",
+        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Unity\\Game\\Source\\Game.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ReaqtorTemp/_packaging/Reaqtor/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
