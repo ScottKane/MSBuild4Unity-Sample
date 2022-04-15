@@ -1,27 +1,4 @@
 <Project ToolsVersion="15.0">
-  <!--GENERATED FILE-->
-  <!--
-    This file can be modified and checked in.
-    
-    It is different from the other generated C# Projects in that it will be the one gathering all dependencies and placing them into the Unity asset folder.
-    
-    You can add project level dependencies to this file, by placing them below:
-    - <Import Project="$(MSBuildForUnityGeneratedProjectDirectory)\$(MSBuildProjectName).g.props" />
-    and before:
-    - <Import Project="$(MSBuildForUnityGeneratedProjectDirectory)\$(MSBuildProjectName).g.targets" />
-    
-    Do not add any source or compilation items.
-    
-    Examples of how you can modify this file:
-    - Add NuGet package references:
-        <ItemGroup>
-          <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
-        </ItemGroup>
-    - Add external C# project references:
-      <ItemGroup>
-        <ProjectReference Include="..\..\..\ExternalLib\ExternalLib.csproj" />
-      </ItemGroup>
-  -->
   
   <Import Project="$([MSBuild]::GetPathOfFileAbove(MSBuildForUnity.Common.props))" Condition="Exists('$([MSBuild]::GetPathOfFileAbove(MSBuildForUnity.Common.props))')" />
 
@@ -29,21 +6,24 @@
     <TargetFramework>$(UnityCurrentTargetFramework)</TargetFramework>
   </PropertyGroup>
 
-  <!-- SDK.props is imported inside this props file -->
   <Import Project="$(MSBuildForUnityGeneratedProjectDirectory)\$(MSBuildProjectName).g.props" />
   
   <ItemGroup>
-    <ProjectReference Include="..\Source\Game.Domain\Game.Domain.csproj" />
+    <ProjectReference Include="..\Source\Game.Remoting\Client\Game.Remoting.Client.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
   </ItemGroup>
 
-  <!-- Exclude packages in Editor if needed -->
-  <!-- <ItemGroup>
+  <ItemGroup>
     <NuGetPackageIdExclusionList Condition="'$(UnityConfiguration)' == 'InEditor'" Include="
       System.ServiceModel.Primitives;
       System.Private.ServiceModel;
     " />
-  </ItemGroup> -->
+  </ItemGroup>
 
-  <!-- SDK.targets is imported inside this props file -->
   <Import Project="$(MSBuildForUnityGeneratedProjectDirectory)\$(MSBuildProjectName).g.targets" />
 </Project>

@@ -2,9 +2,9 @@
   
   <!-- These are specific to this Unity project and can't be overridden -->
   <PropertyGroup>
-    <UnityProjectAssetsPath>C:\Unity\Game\Assets</UnityProjectAssetsPath>
+    <UnityProjectAssetsPath>C:\Unity\MSBuild4Unity-Sample\Assets</UnityProjectAssetsPath>
     
-    <_MSBuildForUnityGeneratedOutputDirectory>C:\Unity\Game\MSBuild</_MSBuildForUnityGeneratedOutputDirectory>
+    <_MSBuildForUnityGeneratedOutputDirectory>C:\Unity\MSBuild4Unity-Sample\MSBuild</_MSBuildForUnityGeneratedOutputDirectory>
     <MSBuildForUnityGeneratedProjectDirectory>$(_MSBuildForUnityGeneratedOutputDirectory)\Projects</MSBuildForUnityGeneratedProjectDirectory>
   </PropertyGroup>
   
@@ -21,9 +21,9 @@
     <UnityCurrentPlatform>WindowsStandalone64</UnityCurrentPlatform>
     <UnityCurrentTargetFramework>netstandard2.1</UnityCurrentTargetFramework>
     
-    <UnityMajorVersion>2021</UnityMajorVersion>
+    <UnityMajorVersion>2022</UnityMajorVersion>
     <UnityMinorVersion>2</UnityMinorVersion>
-    <UnityEditorInstallPath>C:\Program Files\Unity\Hub\Editor\2021.2.18f1\Editor</UnityEditorInstallPath>
+    <UnityEditorInstallPath>C:\Program Files\Unity\Hub\Editor\2022.2.0a9\Editor</UnityEditorInstallPath>
   </PropertyGroup>
   
   <PropertyGroup>

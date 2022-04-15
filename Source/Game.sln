@@ -1,5 +1,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Domain", "Game.Domain\Game.Domain.csproj", "{4EF5D824-EDFA-40E0-8C90-A40942C1554B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Remoting.Client", "Game.Remoting\Client\Game.Remoting.Client.csproj", "{BDAC0FD8-A81B-42C6-97B2-B77BFFB8951B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Remoting.Contracts", "Game.Remoting\Contracts\Game.Remoting.Contracts.csproj", "{5E312D91-9DCF-4D46-A024-28A7601E369D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Remoting.Server", "Game.Remoting\Server\Game.Remoting.Server.csproj", "{640CD85D-F8CE-4BDF-9626-E53F6AFB26F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -7,9 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4EF5D824-EDFA-40E0-8C90-A40942C1554B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EF5D824-EDFA-40E0-8C90-A40942C1554B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EF5D824-EDFA-40E0-8C90-A40942C1554B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EF5D824-EDFA-40E0-8C90-A40942C1554B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAC0FD8-A81B-42C6-97B2-B77BFFB8951B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAC0FD8-A81B-42C6-97B2-B77BFFB8951B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAC0FD8-A81B-42C6-97B2-B77BFFB8951B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAC0FD8-A81B-42C6-97B2-B77BFFB8951B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E312D91-9DCF-4D46-A024-28A7601E369D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E312D91-9DCF-4D46-A024-28A7601E369D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E312D91-9DCF-4D46-A024-28A7601E369D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E312D91-9DCF-4D46-A024-28A7601E369D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640CD85D-F8CE-4BDF-9626-E53F6AFB26F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640CD85D-F8CE-4BDF-9626-E53F6AFB26F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640CD85D-F8CE-4BDF-9626-E53F6AFB26F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640CD85D-F8CE-4BDF-9626-E53F6AFB26F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

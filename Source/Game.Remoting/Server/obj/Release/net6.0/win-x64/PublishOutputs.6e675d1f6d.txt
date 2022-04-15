@@ -1,0 +1,2 @@
+C:\Unity\MSBuild4Unity-Sample\Build\Windows\Server\appsettings.json
+C:\Unity\MSBuild4Unity-Sample\Build\Windows\Server\Game.Remoting.Server.exe

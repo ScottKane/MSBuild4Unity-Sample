@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj": {}
+    "C:\\Unity\\MSBuild4Unity-Sample\\Assets\\Game.Dependencies.msb4u.csproj": {}
   },
   "projects": {
-    "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj": {
+    "C:\\Unity\\MSBuild4Unity-Sample\\Assets\\Game.Dependencies.msb4u.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj",
+        "projectUniqueName": "C:\\Unity\\MSBuild4Unity-Sample\\Assets\\Game.Dependencies.msb4u.csproj",
         "projectName": "Game.Dependencies.msb4u",
-        "projectPath": "C:\\Unity\\Game\\Assets\\Game.Dependencies.msb4u.csproj",
+        "projectPath": "C:\\Unity\\MSBuild4Unity-Sample\\Assets\\Game.Dependencies.msb4u.csproj",
         "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\Game\\MSBuild\\Output\\obj\\Dependencies\\",
+        "outputPath": "C:\\Unity\\MSBuild4Unity-Sample\\MSBuild\\Output\\obj\\Dependencies\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Unity\\Game\\Assets\\NuGet.Config",
+          "C:\\Unity\\MSBuild4Unity-Sample\\Assets\\NuGet.Config",
           "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj": {
-                "projectPath": "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj",
+              "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Client\\Game.Remoting.Client.csproj": {
+                "projectPath": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Client\\Game.Remoting.Client.csproj",
                 "privateAssets": "analyzers"
               }
             }
@@ -50,6 +50,21 @@
               "suppressParent": "Analyzers",
               "target": "Package",
               "version": "[0.9.2-*, 0.9.2]"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Reactive": {
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -71,14 +86,14 @@
         }
       }
     },
-    "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj": {
+    "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Client\\Game.Remoting.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj",
-        "projectName": "Game.Domain",
-        "projectPath": "C:\\Unity\\Game\\Source\\Game.Domain\\Game.Domain.csproj",
+        "projectUniqueName": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Client\\Game.Remoting.Client.csproj",
+        "projectName": "Game.Remoting.Client",
+        "projectPath": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Client\\Game.Remoting.Client.csproj",
         "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\Game\\Source\\Game.Domain\\obj\\",
+        "outputPath": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,7 +104,82 @@
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ReaqtorTemp/_packaging/Reaqtor/nuget/v3/index.json": {}
+          "https://pkgs.dev.azure.com/ReaqtorTemp/_packaging/Reaqtor/nuget/v3/index.json": {},
+          "https://www.myget.org/F/protobuf-net/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Contracts\\Game.Remoting.Contracts.csproj": {
+                "projectPath": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Contracts\\Game.Remoting.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "protobuf-net.Grpc": {
+              "target": "Package",
+              "version": "[1.0.169, )"
+            },
+            "protobuf-net.GrpcLite": {
+              "target": "Package",
+              "version": "[0.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Contracts\\Game.Remoting.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Contracts\\Game.Remoting.Contracts.csproj",
+        "projectName": "Game.Remoting.Contracts",
+        "projectPath": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Contracts\\Game.Remoting.Contracts.csproj",
+        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Unity\\MSBuild4Unity-Sample\\Source\\Game.Remoting\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ReaqtorTemp/_packaging/Reaqtor/nuget/v3/index.json": {},
+          "https://www.myget.org/F/protobuf-net/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -106,6 +196,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
