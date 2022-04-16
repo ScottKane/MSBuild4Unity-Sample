@@ -1,8 +1,8 @@
-C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\bin\Release\netstandard2.1\Game.Remoting.Contracts.deps.json
-C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\bin\Release\netstandard2.1\Game.Remoting.Contracts.dll
 C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\obj\Release\netstandard2.1\Game.Remoting.Contracts.csproj.AssemblyReference.cache
 C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\obj\Release\netstandard2.1\Game.Remoting.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\obj\Release\netstandard2.1\Game.Remoting.Contracts.AssemblyInfoInputs.cache
 C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\obj\Release\netstandard2.1\Game.Remoting.Contracts.AssemblyInfo.cs
 C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\obj\Release\netstandard2.1\Game.Remoting.Contracts.csproj.CoreCompileInputs.cache
 C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\obj\Release\netstandard2.1\Game.Remoting.Contracts.dll
+C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\bin\Release\netstandard2.1\Game.Remoting.Contracts.deps.json
+C:\Unity\MSBuild4Unity-Sample\Source\Game.Remoting\Contracts\bin\Release\netstandard2.1\Game.Remoting.Contracts.dll

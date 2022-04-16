@@ -20,7 +20,7 @@ namespace Game.Editor
                 {
                     PlayModeStateChange.EnteredPlayMode => () =>
                     {
-                        // Build.WindowsServer();
+                        Build.WindowsServer();
                         _server = new Process(); 
                         _server.StartInfo = new ProcessStartInfo("Game.Remoting.Server.exe")
                         {
