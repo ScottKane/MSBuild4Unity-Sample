@@ -17,10 +17,20 @@ namespace Game.Services
                 .Interval(TimeSpan.FromSeconds(1))
                 .Select(_ => DateTime.UtcNow.ToString(CultureInfo.InvariantCulture));
 
-            requests.Subscribe(request => Debug.Log($"[Client]: {request}"));
+            var requestsSubscription = requests.Subscribe(request => Debug.Log($"[Client]: {request}"));
                     
             var responses = _service.Subscribe(requests);
-            responses.Subscribe(response => Debug.Log($"[Server]: {response}"));
+            var responsesSubscription = responses.Subscribe(response => Debug.Log($"[Server]: {response}"));
+
+            Observable
+                .FromEvent(
+                    handler => Application.quitting += handler,
+                    handler => Application.quitting -= handler)
+                .Subscribe(_ =>
+                {
+                    requestsSubscription.Dispose();
+                    responsesSubscription.Dispose();
+                });
         }
     }
 }

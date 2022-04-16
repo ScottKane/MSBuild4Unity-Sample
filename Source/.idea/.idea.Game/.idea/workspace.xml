@@ -8,30 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2decd382-cd83-49a6-80ad-d9f582ceae92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Assets/Dependencies/netstandard2.1/Game.Dependencies.msb4u.deps.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Dependencies/netstandard2.1/Game.Dependencies.msb4u.deps.json.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Dependencies/netstandard2.1/Game.Remoting.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Dependencies/netstandard2.1/Game.Remoting.Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Source/Editor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Source/Editor/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Source/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Source/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Source/Services/TestService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Source/Services/TestService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MSBuild/Output/obj/Dependencies/Release/netstandard2.1/Game.Dependencies.msb4u.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MSBuild/Output/obj/Dependencies/Release/netstandard2.1/Game.Dependencies.msb4u.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MSBuild/Projects/Game.Dependencies.msb4u.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MSBuild/Projects/Game.Dependencies.msb4u.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MSBuild/Projects/Game.Dependencies.msb4u.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../MSBuild/Projects/Game.Dependencies.msb4u.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MSBuildForUnity.Common.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MSBuildForUnity.Common.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Client/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Client/Client.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.Remoting/Client/bin/Release/netstandard2.1/Game.Remoting.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Client/bin/Release/netstandard2.1/Game.Remoting.Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Client/obj/Debug/netstandard2.1/Game.Remoting.Client.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Client/obj/Debug/netstandard2.1/Game.Remoting.Client.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.Remoting/Client/obj/Release/netstandard2.1/Game.Remoting.Client.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Client/obj/Release/netstandard2.1/Game.Remoting.Client.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.Remoting/Client/obj/Release/netstandard2.1/Game.Remoting.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Client/obj/Release/netstandard2.1/Game.Remoting.Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Client/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/bin/Release/netstandard2.1/Game.Remoting.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/bin/Release/netstandard2.1/Game.Remoting.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/Game.Remoting.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/Game.Remoting.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/Release/netstandard2.1/Game.Remoting.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/Release/netstandard2.1/Game.Remoting.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/Release/netstandard2.1/Game.Remoting.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/Release/netstandard2.1/Game.Remoting.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Server/bin/Release/net6.0/win-x64/Game.Remoting.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Server/bin/Release/net6.0/win-x64/Game.Remoting.Contracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Server/obj/Debug/net6.0/Game.Remoting.Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Server/obj/Debug/net6.0/Game.Remoting.Server.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Server/obj/Release/net6.0/win-x64/Game.Remoting.Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Server/obj/Release/net6.0/win-x64/Game.Remoting.Server.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.Remoting/Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Server/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game.Remoting/Contracts/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +87,7 @@
       <workItem from="1650048430683" duration="1264000" />
       <workItem from="1650049945455" duration="1044000" />
       <workItem from="1650051638324" duration="520000" />
-      <workItem from="1650067842094" duration="359000" />
+      <workItem from="1650067842094" duration="1946000" />
     </task>
     <servers />
   </component>
